@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black ;
+  margin: 0;
+  height: 100vh; /* Full screen height */
+  background-color: black;
+}
+
+h1{
+    color:goldenrod;
+}
+
+.movie-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color:  rgb(228, 185, 228);
+  }
+
+  .box{
+    height:400px;
+    width:23%;
+    background-color: black;
+    margin-top: 1rem;
+    box-shadow: black;
+  }
+
+  .box-img{
+    height:300px;
+    background-size:cover;
+  }
+
+  .box-content{
+    padding: 1rem;;
+  }
+
+  .box-content p{
+    margin-top: 1rem;
+    color:rgb(7, 202, 212);
+  }
+
+.divs{
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+}    
+
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.available {
+  background-color: green;
+}
+
+.booked {
+  background-color: red;
+}
+
+footer{
+    margin-top:15px;
+  }
+
+  .footer-panel1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    background-color: #37475a;
+    color:white;
+     font-size:0.85rem;
+  }
+
+  .foot-panel4{
+    height:70px;
+    background-color: #1f1111;
+    color:white;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .texts{
+    padding-top: 5px;;
+  }
+
+  a{
+    display: inline-block;
+    margin-top: 10px;  /* 👈 ye gap la dega image aur link ke beech */
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+  }
